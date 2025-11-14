@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hafizh's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <script>
+    window.addEventListener("load", () => {
+      document.body.classList.add("loaded");
+    });
+
+    window.addEventListener("beforeunload", () => {
+      document.body.classList.remove("loaded");
+    });
+  </script>
+
+  <body class="fade">
+    <section
+      class="cover_home1 d-flex flex-column justify-content-center align-items-center text-center"
+    >
+      <!-- Glass Box Wrapper -->
+      <div
+        class="glass-box1 w-100 h-75 d-flex flex-column justify-content-between align-items-center p-4"
+      >
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent w-100">
+          <div class="container-fluid">
+            <!-- Left: Social Icons -->
+            <div class="d-flex align-items-center">
+              <a
+                href="https://www.linkedin.com/in/hafizh-ilhammm/"
+                class="mx-2"
+              >
+                <img src="Images/linkedin.png" alt="LinkedIn" width="36" />
+              </a>
+              <a href="https://www.instagram.com/hafizhilhmm/" class="mx-2">
+                <img src="Images/insagram.png" alt="Instagram" width="36" />
+              </a>
+              <a href="mailto:hafizhilham36@gmail.com" class="mx-2">
+                <img src="Images/email.png" alt="Email" width="36" />
+              </a>
+              <a href="https://github.com/hafizhilhamm" class="mx-2">
+                <img src="Images/github.png" alt="GitHub" width="36" />
+              </a>
+            </div>
+
+            <!-- Hamburger -->
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Right: Links -->
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav text-center">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about2">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#achievement">Achievement</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div
+          class="body-section text-center d-flex flex-column justify-content-center align-items-center flex-grow-1"
+        >
+          <div class="intro-sequence text-center">
+            <h1 class="sequence-text hi fw-bold">Hi!</h1>
+            <h1 class="sequence-text name fw-bold">I'm Hafizh</h1>
+            <h2 class="sequence-text role fw-bold">
+              Robot & Computer Vision Engineer
+            </h2>
+          </div>
+
+          <div class="final-text text-center">
+            <h1 class="display-3 fw-bold">
+              Hi! <span class="name">I'm Hafizh</span>
+            </h1>
+            <h2 class="display-5 fw-bold">Robot & Computer Vision Engineer</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section
+      class="cover_home d-flex flex-column justify-content-center align-items-center text-center"
+      id="about2"
+    >
+      <!-- Glass Box Wrapper -->
+      <div
+        class="glass-box w-100 d-flex flex-column justify-content-between align-items-center p-4"
+      >
+        <div class="container-fluid text-white mt-5 pt-4 mb-auto">
+          <div class="row align-items-start px-md-2">
+            <div class="col-sm-12 col-md-5 text-start" data-aos="fade-right">
+              <h1 class="fw-bold mb-4">ABOUT ME</h1>
+              <p class="about-me fs-5">
+                Hi! 👋 I’m Hafizh, a fresh graduate from
+                <strong>Universitas Gadjah Mada</strong> majoring in
+                <strong>Electronics and Instrumentation</strong>, specializing
+                in <strong>Robotics and Computer Vision</strong>.
+              </p>
+              <p class="about-me fs-5">
+                I’m passionate about <strong>Robotics</strong>,
+                <strong>Computer Vision</strong>, and
+                <strong>Artificial Intelligence</strong>. I gained valuable
+                experience during my internships at
+                <strong>PT. Siaga Abdi Utama</strong> and
+                <strong>PT. Bank Rakyat Indonesia (Persero) Tbk</strong> as a
+                full-stack developer, and at
+                <strong>Fukuro Robotic Team</strong> as a computer vision
+                engineer and team leader.
+              </p>
+            </div>
+
+            <!-- Carousel Section -->
+            <div class="col-sm-12 col-md-5 offset-md-2" data-aos="fade-left">
+              <div
+                id="hafizhCarousel"
+                class="carousel slide rounded-4 shadow-lg"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner rounded-4">
+                  <div class="carousel-item active">
+                    <img
+                      src="Images/hafizh2.png"
+                      class="d-block w-100 rounded-4 carousel-img"
+                      alt="Hafizh"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="Images/robot2.png"
+                      class="d-block w-100 rounded-4 carousel-img"
+                      alt="Robot Fukuro"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="Images/team2.png"
+                      class="d-block w-100 rounded-4 carousel-img"
+                      alt="Team Work"
+                    />
+                  </div>
+                </div>
+
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#hafizhCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#hafizhCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#hafizhCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#hafizhCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#hafizhCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience -->
+    <section
+      class="cover_home d-flex flex-column justify-content-center align-items-center text-center"
+      id="experience"
+    >
+      <!-- Glass Box Wrapper -->
+      <div
+        class="glass-box w-100 d-flex flex-column justify-content-between align-items-center p-4"
+      >
+        <div class="experience container-fluid text-white mt-5 pt-4 mb-auto">
+          <h1 class="fw-bold text-center mb-5">
+            <span class="text-gradient">Experience</span>
+          </h1>
+          <!-- first row -->
+          <div class="row g-4 justify-content-center mb-3">
+            <!-- first card -->
+            <div
+              class="col-md-4 col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <a href="/fukuro.html">
+                <div
+                  class="exp-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center justify-content-center mt-3"
+                >
+                  <img
+                    src="images/fukuroicon.png"
+                    alt="Fukuro Robotic Team"
+                    class="img-fluid exp-logo mb-3"
+                    width="120"
+                  />
+                </div>
+              </a>
+              <div class="text-card mt-1">
+                <a href="/fukuro.html">
+                  <h5 class="text-white">
+                    Fukuro Robotic Team Leader & Vision engineer
+                  </h5>
+                </a>
+              </div>
+            </div>
+
+            <!-- second card -->
+            <div
+              class="col-md-4 col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="700"
+            >
+              <a href="/bri.html">
+                <div
+                  class="exp-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center justify-content-center mt-3"
+                >
+                  <img
+                    src="images/briic.png"
+                    alt="BRI"
+                    class="img-fluid exp-logo mb-3"
+                    width="150"
+                  />
+                </div>
+              </a>
+              <div class="text-card mt-1">
+                <a href="/bri.html">
+                  <h5 class="text-white">
+                    PT Bank Rakyat Indonesia Tbk Fullstack Developer Intern
+                  </h5>
+                </a>
+              </div>
+            </div>
+
+            <!-- third card -->
+            <div
+              class="col-md-4 col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="1200"
+            >
+              <a href="/frcs.html">
+                <div
+                  class="exp-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center justify-content-center mt-3"
+                >
+                  <img
+                    src="images/frcs ic.png"
+                    alt="FRCS"
+                    class="img-fluid exp-logo mb-3"
+                    width="120"
+                  />
+                </div>
+              </a>
+              <div class="text-card mt-1">
+                <a href="/frcs.html">
+                  <h5 class="text-white">
+                    Head of Multimedia at Fukuro Robotic Competition
+                  </h5>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- second row -->
+          <div class="row g-4 justify-content-center mt-3 mb-3">
+            <!-- first card -->
+            <div
+              class="col-md-4 col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="1600"
+            >
+              <a href="/sau.html">
+                <div
+                  class="exp-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center justify-content-center mt-3"
+                >
+                  <img
+                    src="images/sau ic.png"
+                    alt="Sau"
+                    class="img-fluid exp-logo mb-3"
+                    width="200"
+                  />
+                </div>
+              </a>
+              <div class="text-card mt-2">
+                <a href="/sau.html">
+                  <h5 class="text-white">
+                    PT. Siaga Abdi Utama Fullstack Developer Intern
+                  </h5>
+                </a>
+              </div>
+            </div>
+
+            <!-- second card -->
+            <div
+              class="col-md-4 col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="2100"
+            >
+              <a href="/hmei.html">
+                <div
+                  class="exp-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center justify-content-center mt-3"
+                >
+                  <img
+                    src="images/hmei ic.png"
+                    alt="hmei"
+                    class="img-fluid exp-logo mb-3"
+                    width="120"
+                  />
+                </div>
+              </a>
+              <div class="text-card mt-2 mb-3">
+                <a href="/hmei.html">
+                  <h5 class="text-white">
+                    Electronics and Instrumentation Student Union Graphic
+                    Designer
+                  </h5>
+                </a>
+              </div>
+            </div>
+
+            <!-- third card -->
+            <div
+              class="col-md-4 col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="2600"
+            >
+              <a href="cats.html">
+                <div
+                  class="exp-card text-center p-4 rounded-4 h-100 d-flex flex-column align-items-center justify-content-center mt-3"
+                >
+                  <img
+                    src="images/skripsi ic.png"
+                    alt="skripsi"
+                    class="img-fluid exp-logo mb-3"
+                    width="180"
+                  />
+                </div>
+              </a>
+              <div class="text-card mt-2">
+                <a href="cats.html">
+                  <h5 class="text-white mb-5">
+                    Cat Health Monitoring and Activity Using ESP-CAM and
+                    Computer Vision
+                  </h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- achievement -->
+    <section
+      class="cover_home d-flex flex-column justify-content-center align-items-center text-center mt-5"
+      id="achievement"
+    >
+      <!-- Glass Box Wrapper -->
+      <div
+        class="glass-box w-100 d-flex flex-column justify-content-between align-items-center p-4"
+      >
+        <div class="row align-items-center justify-content-center mt-5 mb-5">
+          <h1 class="fw-bold text-center mb-5">
+            <span class="text-gradient">Achievement</span>
+          </h1>
+          <div class="col-lg-12 col-md-12" data-aos="fade-left">
+            <div
+              class="achievement-card d-flex flex-column flex-md-row align-items-center p-4 rounded-4"
+            >
+              <!-- Carousel Wrapper -->
+              <div class="achievement-image mb-3 mb-md-0 me-md-4 w-100 w-md-50">
+                <div
+                  id="utokyoCarousel"
+                  class="carousel slide rounded-4 shadow-lg"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000"
+                >
+                  <div class="carousel-inner rounded-4">
+                    <div class="carousel-item active">
+                      <img
+                        src="images/utokyo.jpg"
+                        alt="University of Tokyo"
+                        class="d-block w-100 img-fluid rounded-4"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/utokyo2.jpg"
+                        alt="University of Tokyo 2"
+                        class="d-block w-100 img-fluid rounded-4"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/utokyo3.jpg"
+                        alt="University of Tokyo 3"
+                        class="d-block w-100 img-fluid rounded-4"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Optional controls -->
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#utokyoCarousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#utokyoCarousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Text Section -->
+              <div class="achievement-text">
+                <p class="mb-2">
+                  I was awarded to be one of the exchange students at
+                  <b>The University of Tokyo</b> through the
+                  <b>University-wide Student Exchange Program (USTEP) 2024</b>.
+                </p>
+                <p>
+                  During this program, I had the opportunity to experience
+                  Japan’s academic and cultural environment firsthand, engage
+                  with global researchers, and deepen my knowledge in
+                  <b>Robotics and Computer Vision</b>. This experience enhanced
+                  my academic curiosity and inspired me to further explore the
+                  intersection of technology, innovation, and real-world impact.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- KRI Achievement -->
+
+        <div
+          class="col-lg-12 col-md-12"
+          data-aos="fade-right"
+          data-aos-delay="500"
+        >
+          <div
+            class="achievement-card d-flex flex-column flex-md-row align-items-center p-4 rounded-4"
+          >
+            <!-- Text Section -->
+            <div class="achievement-text order-2 order-md-1 me-md-4">
+              <p class="mb-2">
+                I served as the <b>team leader</b> for my university’s robotics
+                team in the <b>Kontes Robot Indonesia (KRI) Regional</b>, a
+                prestigious national robotics competition that challenges
+                students to design and build autonomous robots.
+              </p>
+              <p>
+                In this role, I was responsible for coordinating project
+                development, designing robot control algorithms, and managing
+                task delegation among members specializing in hardware,
+                software, and vision systems.
+              </p>
+            </div>
+
+            <!-- Carousel Section -->
+            <div class="achievement-image2 order-1 order-md-2 mb-3 mb-md-0">
+              <div
+                id="fukuroCarousel2"
+                class="carousel slide rounded-4 shadow-lg"
+                data-bs-ride="carousel"
+                data-bs-interval="3000"
+              >
+                <div class="carousel-inner rounded-4">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/fukurobot.png"
+                      alt="KRI Robot 1"
+                      class="d-block img-fluid rounded-4 smaller-img"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/fukurobot2.png"
+                      alt="KRI Robot 2"
+                      class="d-block img-fluid rounded-4 smaller-img"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/fukurobot3.png"
+                      alt="KRI Robot 3"
+                      class="d-block img-fluid rounded-4 normal-img"
+                    />
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#fukuroCarousel2"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#fukuroCarousel2"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // animation duration in ms
+        once: true, // whether animation should happen only once
+        easing: "ease-in-out",
+      });
+    </script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var typed = new Typed("#typed", {
+                strings: [
+                    "Hi! I'm Hafizh",
+                    "Robot & Computer Vision Engineer",
+                    "Welcome to My Portfolio!"
+                ],
+                typeSpeed: 70,
+                backSpeed: 30,
+                backDelay: 1000,
+                startDelay: 500,
+                loop: false, // stop after finishing all strings
+                onComplete: function() {
+                    // Fade out the typed text
+                    const typedElement = document.querySelector('#typed');
+                    const finalText = document.querySelector('#final-text');
+                    typedElement.style.transition = 'opacity 1s';
+                    typedElement.style.opacity = 0;
+
+                    // After fade out, show final text
+                    setTimeout(() => {
+                        finalText.style.transition = 'opacity 1s';
+                        finalText.style.opacity = 1;
+                    }, 1000);
+                }
+            });
+        });
+    </script> -->
+  </body>
+</html>
